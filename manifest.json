@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Translation",
+  "version": "0.0.1",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "options_page": "options.html",
+  "permissions":[
+    "storage"
+  ]
+}
